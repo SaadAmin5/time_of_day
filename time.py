@@ -15,13 +15,13 @@ while True:
         if time >=0 and time <=24:
 
 
-            if time>=12 and time <=16:
+            if time>=12 and time <=17:
                 print('good afternoon')
 
-            elif time >=16 and time <=18:
+            elif time >17 and time <=21:
                 print('good evening')
 
-            elif time >=18 and time <=24:
+            elif time >21 and time <=4:
                 print('good night')
 
             else:
